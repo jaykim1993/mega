@@ -593,13 +593,13 @@
                     for (let i = 0; i < listArr.length; i++) {
                         if (listArr[i].tag === filterTag) arrToRender.push(listArr[i]);
                     }
-                    for (let i = 0; i < listArr.length-4; i++) {
+                    for (let i = 0; i < listArr.length; i++) {
                         if (listArr[i].tag !== filterTag) arrToRender.push(listArr[i]);
                     }
                 }
 
                 // 리스트 생성
-                for (let i = 0; i < arrToRender.length; i++) {
+                for (let i = 0; i < 12; i++) {
                     const item = arrToRender[i];
                     output += `
                         <li data-id="${item.id}">
