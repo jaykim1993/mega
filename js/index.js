@@ -649,10 +649,10 @@
             // 슬라이드 이동 이벤트
             function addSlideEvents() {
                 let currentIndex = 0;
-                const maxIndex = 7;
+
 
                 function updateSlide() {
-                    list.style.transform = `translateX(${-currentIndex * 181}px)`;
+                    list.style.transform = `translateX(${-currentIndex * 182}px)`;
                 }
 
                 prevBtn.addEventListener('click', () => {
@@ -663,7 +663,7 @@
                 });
 
                 nextBtn.addEventListener('click', () => {
-                    if (currentIndex < maxIndex) {
+                    if (currentIndex < 8) {
                         currentIndex++;
                         updateSlide();
                     }
