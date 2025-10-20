@@ -593,7 +593,7 @@
                     for (let i = 0; i < listArr.length; i++) {
                         if (listArr[i].tag === filterTag) arrToRender.push(listArr[i]);
                     }
-                    for (let i = 0; i < listArr.length; i++) {
+                    for (let i = 0; i < listArr.length-4; i++) {
                         if (listArr[i].tag !== filterTag) arrToRender.push(listArr[i]);
                     }
                 }
