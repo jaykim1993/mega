@@ -599,7 +599,7 @@
                 }
 
                 // 리스트 생성
-                for (let i = 0; i < 12; i++) {
+                for (let i = 0; i < listArr.length; i++) {
                     const item = arrToRender[i];
                     output += `
                         <li data-id="${item.id}">
@@ -649,7 +649,7 @@
             // 슬라이드 이동 이벤트
             function addSlideEvents() {
                 let currentIndex = 0;
-                const maxIndex = list.querySelectorAll('li').length - 1;
+                const maxIndex = 7;
 
                 function updateSlide() {
                     list.style.transform = `translateX(${-currentIndex * 181}px)`;
