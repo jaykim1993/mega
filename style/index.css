@@ -872,6 +872,9 @@
         .s3Category{
             cursor:pointer;
         }
+        .s3Category:hover{
+            transform: scale(1.1);
+        }
         .s3Title{
             font-size: 32px;
             margin: 10px 0 20px;
