@@ -20,6 +20,7 @@
             flex: 1;
         }
         /* 공통 */
+        
         ul{
             list-style: none;
             margin: 0;
@@ -38,9 +39,31 @@
             padding-top: 20px;
         }
 
-        button{
+        /* 전역 cursor 초기화 */
+        body, .container, main, section {
+            cursor: default; /* 기본 커서 */
+        }
+
+        /* 클릭 가능한 요소만 pointer */
+        button,
+        a,
+        .section1 .posterWarp .poster,
+        .section1 .posterWarp .overay,
+        .section1 .posterWarp .belowPoster .likenumBtn,
+        .section1 .posterWarp .belowPoster .bookBtn,
+        .s2Upper img,
+        .s2Left .sliderS2 img,
+        .s2Right img,
+        .s3Mainposter,
+        .s3Btns button,
+        .s3List li,
+        .modal .modal-conetent .slideCheck span,
+        .modal .modal-conetent .neverShowAgain .item-check,
+        .modal .modal-conetent .control {
             cursor: pointer;
         }
+
+        
 
 /* ------------------------------------------------------------------ */
 /* ------------------------------------------------------------------ */
@@ -401,7 +424,7 @@
             transition: 0.3s;
         }
         .section1 .s1Header .moreMovie:hover{
-            transform: scale(1.05);
+            transform: scale(1.1);
         }
         .section1 .posterWarp{
             display: flex;
@@ -840,6 +863,10 @@
         }
         .s3Category{
             cursor:pointer;
+            transition: 0.3s;
+        }
+        .s3Category:hover{
+            text-decoration: underline;
         }
         .s3Title{
             font-size: 32px;
