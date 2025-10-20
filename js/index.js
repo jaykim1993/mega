@@ -412,17 +412,30 @@
             // 배열 생성
             const listArr = [
                 {   id: 0,
-                    title: '프랑켄슈타인',
-                    bg: 'classic',
-                    tag: '클레식시네마',
-                    disc: `나폴레옹 전쟁의 참혹한 전장에서 시작된 <br>과학자 빅터 프랑켄슈타인의 
-                    실험은 피조물을 탄생시키지만,<br> 예기치 못한 피조물의 실종으로 파국을 맞이한다.
-                    <br><br>3년 뒤,<br> 빅터 앞에 괴물이 되어 돌아온 피조물은 교만한 창조주여,<br> 
-                    내가 겪은 불행을 돌려주리라라는 저주와 함께 그의 운명을 뒤흔든다.
-                    <br>10년간 무대를 압도해온 한국 창작뮤지컬의 신화, <br><br>뮤지컬 〈프랑켄슈타인〉이 
-                    스크린에서 다시 살아난다.`
+                    title: '룩백',
+                    bg: 'mega',
+                    tag: '박스오피스',
+                    disc: `<b>“만화를 그려서 다행이라고 생각해”</b><br><br>
+                    그림에 대한 자신감으로 가득한 ‘후지노’<br>
+                    “세상에 나와서 다행이라고 생각해”<br>
+                    세상과의 단절 속에 그림만이 전부였던 ‘쿄모토’<br><br>
+
+                    만화를 향한 한결 같은 마음으로<br>
+                    잊지 못할 사계절을 함께한 두 소녀의 아름다운 우정 이야기가 시작된다!`
                 },
                 {   id: 1,
+                    title: `투모로우바이투게더<br>하트 어택`,
+                    bg: 'mega',
+                    tag: '박스오피스',
+                    disc: `<b>MOA라는 이름이 새겨진 라커의 문이 열리는 순간,<br>
+                    심장을 명중하는 특별한 만남이 다시 시작된다!</b><br><br>
+
+                    투모로우바이투게더와 함께하는 현실 판타지는<br>
+                    캠퍼스를 벗어나 발아래 구름이 흐르는 핑크빛 하늘 위로 번져가고,<br>
+                    멈출 수 없는 마음이 레이싱 트랙 위,<br>
+                    제한 속도 따윈 잊은 채 부스터를 밟아 한계 너머로 질주한다.`
+                },
+                {   id: 2,
                     title: '만남의 집',
                     bg: 'film',
                     tag: '필름소사이어티',
@@ -432,7 +445,18 @@
                     결국 세 인물의 연결고리를 만들어낸다.<br><br>네가 하는 모든 선택들이 모여서 네가 돼
                     <br>서로의 삶을 비추는 ‘햇빛 같은 만남’`
                 },
-                {   id: 2,
+                {   id: 3,
+                    title: '프랑켄슈타인',
+                    bg: 'classic',
+                    tag: '클레식소사이어티',
+                    disc: `나폴레옹 전쟁의 참혹한 전장에서 시작된 <br>과학자 빅터 프랑켄슈타인의 
+                    실험은 피조물을 탄생시키지만,<br> 예기치 못한 피조물의 실종으로 파국을 맞이한다.
+                    <br><br>3년 뒤,<br> 빅터 앞에 괴물이 되어 돌아온 피조물은 교만한 창조주여,<br> 
+                    내가 겪은 불행을 돌려주리라라는 저주와 함께 그의 운명을 뒤흔든다.
+                    <br>10년간 무대를 압도해온 한국 창작뮤지컬의 신화, <br><br>뮤지컬 〈프랑켄슈타인〉이 
+                    스크린에서 다시 살아난다.`
+                },
+                {   id: 4,
                     title: '연의 편지',
                     bg: 'film',
                     tag: '필름소사이어티',
@@ -443,15 +467,15 @@
                     자꾸 마주치고 ‘소리’와 ‘동순’은 함께 편지를 찾는 친구가 된다.<br><br>하나 둘… 편지를 모을수록 
                     특별한 인연이 이어지자<br>‘소리’는 편지를 보낸 사람에 대한 궁금증이 점차 커져가게 되는데…`
                 },
-                {   id: 3,
+                {   id: 5,
                     title: '그저 사고였을뿐',
                     bg: 'film',
                     tag: '필름소사이어티',
-                    disc: `어느 날,<br> 나를 지옥으로 이끌던 삐걱 소리가 다시 들렸다.
+                    disc: `<b>어느 날,<br> 나를 지옥으로 이끌던 삐걱 소리가 다시 들렸다.</b>
                     <br><br>분명 그놈이다. <br><br>하지만 만약에 아니라면?<br>그저 사고였을 뿐?
                     <br>누군가는 그걸 평생 기억해`
                 },
-                {   id: 4,
+                {   id: 6,
                     title: '마작',
                     bg: 'film',
                     tag: '필름소사이어티',
@@ -462,39 +486,140 @@
                     갱단의 리더 ‘홍어’는 ‘마르트’를 이용하기 위해 접근하고,<br>
                     ‘룬룬’은 그녀에게 설레는 감정을 느끼기 시작한다.`
                 },
+                {   id: 7,
+                    title: `후지모토 타츠키<br>17-26 파트 1`,
+                    bg: 'mega',
+                    tag: '박스오피스',
+                    disc: `<b>17 세부터 26 세까지 그린 8개의 단편</b><br><br>
+                    인류가 멸망한 세상에서 살아남은<br>두 사람을 그린 <뒤뜰에는 두 마리 닭이 있었다>
+                    사춘기의 충동이 터지는 <사사키군이 총알을 막았어><br>
+                    우주적인 규모로 폭발하는 SF 로맨틱 코미디 <사랑은 맹목><br>
+                    나사 빠진 킬러 소녀의 폭주하는 사랑 <시카쿠><br><br>
+                    6개 스튜디오, 7명의 감독에 의해 각자의 컬러로 새롭게 태어난 애니메이션`
+                },
+                {   id: 8,
+                    title: '퍼스트 라이드',
+                    bg: 'mega',
+                    tag: '박스오피스',
+                    disc: `<b>“끝을 보는 놈, 해맑은 놈, 잘생긴 놈, 눈 뜨고 자는 놈, 사랑스러운 놈”</b><br><br>
+                    10월, 뭉치면 더 웃기는 놈들의 대환장 코미디가 온다!<br>
+                    어린 시절부터 한 몸처럼 붙어 다닌 24년 지기 사총사,<br>
+                    태정(강하늘), 도진(김영광), 연민(차은우), 금복(강영석)의 꿈은 바로 함께 하는 여행!<br>
+                    학창 시절에 이루지 못했던 꿈을 위해 생애 첫 해외여행을 떠나는 날,<br>
+                    계획에 없던 옥심(한선화)까지 합류하며 이들의 여행은 점점 환장의 세계로 흘러가는데…!`
+                },
+                {   id: 9,
+                    title: '[2025 시네도슨트] 루브르 박물관',
+                    bg: 'classic',
+                    tag: '클레식소사이어티',
+                    disc: `<b>2025 시네도슨트 IN 센트럴: 세계 미술관 산책 스페셜</b><br><br>
+                    2회차 루브르 박물관: 세계 최대의 박물관<br>
+                    모나리자만을 위해서 연간 수백만명을 맞이하는 세계에서 가장 유명한 박물관,<br>
+                    그 외에도 보는 이들을 놀라게 혹은 감동하게 만드는 루브르의 핵심은 어떤 작품들일까요?<br><br>
+                    *강연일: 10/21(화) 11:00, 10/22(수) 19:30<br>
+                    *예매오픈: 10/14(화) 11:00`
+                },
+                {   id: 10,
+                    title: '[2025 시네도슨트] 반 고흐 미술관',
+                    bg: 'classic',
+                    tag: '클레식소사이어티',
+                    disc: `<b>2025 시네도슨트 IN 센트럴: 세계 미술관 산책 스페셜</b><br><br>
+                    4회차 반 고흐 미술관: 세상에서 가장 유명한 화가의 생애<br>
+                    고독한 화가의 붓질로 완성된 아름다운 작품들, 반 고흐의 생전에는<br> 
+                    인정받지 못했지만 지금은 모두에게 사랑받는 자리까지 오게 된 과정을 소개합니다.<br> 
+                    위대한 예술가의 전당이자 예술 자체이기도 한 미술관, 반 고흐 미술관을 소개합니다.<br><br>
+                    *강연일: 11/4(화) 11:00, 11/5(수) 19:30<br>
+                    *예매오픈: 10/28(화) 11:00<br><br>
+                    도슨트 : 미술사학자 안현배<br>
+                    예술사학자로서 예술을 보다 넓은 컨텍스트 안에서 인문학적으로<br> 
+                    접근하는 시야를 열고자 노력하고 있다.<br>
+                    파리 1 대학교에서 역사학과 프랑스 근대 정치 문화사를 전공했고,<br> 
+                    아나키즘 주제로 석사 학위를 받았다.<br>
+                    예술사학과 순수예술사로 석사 학위에 이어 박사 과정을 수료했다.<br>
+                    현재 예술의 전당 강사와 대학 강의를 맡아 서양 예술사와 문화를 소개하고 있다.<br><br>
+                    * 본 프로그램은 별도의 영상 상영 없이 진행되는 강연 프로그램입니다.<br>
+                    * 예술작품들의 이미지 및 동영상을 활용한 강의로, <br>
+                    * 어린 학생을 동반하실 경우 보호자의 지도가 필요합니다.<br>
+                    * 강연 일정은 강사 사정에 따라 변동될 수 있습니다.<br>
+                    * 강연 3일전 ~ 1일전 취소 및 환불시 수수료가 10% 발생되며, 당일 취소는 불가 합니다.`
+                },
+                {   id: 11,
+                    title: '[2025 시네도슨트] 프라도 미술관',
+                    bg: 'classic',
+                    tag: '클레식소사이어티',
+                    disc: `<b>2025 시네도슨트 IN 센트럴: 세계 미술관 산책 스페셜</b><br><br>
+                    3회차 프라도 미술관: 또 다른 유럽의 이야기<br>
+                    스페인은 유럽 국가지만 이슬람의 지배하에 <br>
+                    오랜 시간을 보낸 역사를 가지고 있습니다. <br>
+                    거기에 더해서 중앙 유럽과는 다른 여러 가지 개성들이 돋보이는데요.<br>
+                    스페인의 역사, 문화를 미술관에서 만납니다.<br><br>
+                    *강연일: 10/28(화) 11:00, 10/29(수) 19:30<br>
+                    *예매오픈: 10/14(화) 11:00<br><br>
+                    도슨트 : 미술사학자 안현배<br>
+                    예술사학자로서 예술을 보다 넓은 컨텍스트 안에서 인문학적으로 <br>
+                    접근하는 시야를 열고자 노력하고 있다.<br>
+                    파리 1 대학교에서 역사학과 프랑스 근대 정치 문화사를 전공했고, <br>
+                    아나키즘 주제로 석사 학위를 받았다.<br>
+                    예술사학과 순수예술사로 석사 학위에 이어 박사 과정을 수료했다.<br>
+                    현재 예술의 전당 강사와 대학 강의를 맡아 서양 예술사와 문화를 소개하고 있다.<br>
+                    * 본 프로그램은 별도의 영상 상영 없이 진행되는 강연 프로그램입니다.<br>
+                    * 예술작품들의 이미지 및 동영상을 활용한 강의로, <br>
+                    * 어린 학생을 동반하실 경우 보호자의 지도가 필요합니다.<br>
+                    * 강연 일정은 강사 사정에 따라 변동될 수 있습니다.<br>
+                    * 강연 3일전 ~ 1일전 취소 및 환불시 수수료가 10% 발생되며, 당일 취소는 불가 합니다.`
+                }
             ];
+
 
             const s3ListWrap = document.getElementById('s3ListWrap');
             const callMain = document.getElementById('callMain');
             const callMaindesc = document.getElementById('callMaindesc');
+            let list, prevBtn, nextBtn;
 
-
-            // 1. 리스트 한 번만 렌더링
-            function renderList() {
+            // 리스트 렌더링
+            function renderList(filterTag = 'all') {
                 let output = `
                     <div class="s3ListContainer">
                         <button class="s3PrevBtn">←</button>
-                            <ul class="s3List">
+                        <ul class="s3List">
                 `;
-                listArr.forEach(item => {
+
+                let arrToRender = [];
+
+                if (filterTag === 'all') {
+                    arrToRender = listArr;
+                } else {
+                    // 우선순위 태그 먼저, 나머지 뒤로 (for문으로)
+                    for (let i = 0; i < listArr.length; i++) {
+                        if (listArr[i].tag === filterTag) arrToRender.push(listArr[i]);
+                    }
+                    for (let i = 0; i < listArr.length; i++) {
+                        if (listArr[i].tag !== filterTag) arrToRender.push(listArr[i]);
+                    }
+                }
+
+                // 리스트 생성
+                for (let i = 0; i < arrToRender.length; i++) {
+                    const item = arrToRender[i];
                     output += `
                         <li data-id="${item.id}">
                             <div class="s3posterwrap">
                                 <img class="bg" src="img/section3/bc-${item.bg}.png">
-                                <img class="s3Subposter" src="img/section3/sub${item.id}.jpg">
+                                <img class="s3Subposter" src="img/section3/sub0${item.id}.jpg">
                             </div>
                             <div class="s3Subtitle">${item.title}</div>
                         </li>
                     `;
-                });
+                }
+
                 output += `
-                            </ul>
+                        </ul>
                         <button class="s3NextBtn">→</button>
                     </div>
                 `;
+
                 s3ListWrap.innerHTML = output;
 
-                // DOM 요소 재참조
                 list = s3ListWrap.querySelector('.s3List');
                 prevBtn = s3ListWrap.querySelector('.s3PrevBtn');
                 nextBtn = s3ListWrap.querySelector('.s3NextBtn');
@@ -503,12 +628,13 @@
                 addSlideEvents();
             }
 
-            // 2. 메인 콘텐츠 초기값 설정 (리스트 렌더링 후)
+            // 메인 콘텐츠 초기값 (랜덤)
             function renderMainDefault() {
-                updateMainContent(listArr[4]);
+                const randomIndex = Math.floor(Math.random() * listArr.length);
+                updateMainContent(listArr[randomIndex]);
             }
 
-            // 3. 리스트 클릭 시 메인 콘텐츠 업데이트
+            // 리스트 클릭 이벤트
             function addListClickEvent() {
                 const listItems = s3ListWrap.querySelectorAll('.s3List li');
                 listItems.forEach(li => {
@@ -520,50 +646,56 @@
                 });
             }
 
-            // 4. 슬라이드 이동 이벤트
+            // 슬라이드 이동 이벤트
             function addSlideEvents() {
-                let check = 0;
+                let currentIndex = 0;
+                const maxIndex = list.querySelectorAll('li').length - 1;
+
+                function updateSlide() {
+                    list.style.transform = `translateX(${-currentIndex * 181}px)`;
+                }
+
                 prevBtn.addEventListener('click', () => {
-                    if (check === 1) {
-                        check = 0;
-                        list.style.transform = `translateX(0px)`;
-                        list.style.transition = 'transform 0.4s ease';
-                        console.log('prev click, check:', check);
+                    if (currentIndex > 0) {
+                        currentIndex--;
+                        updateSlide();
                     }
                 });
 
                 nextBtn.addEventListener('click', () => {
-                    if (check === 0) {
-                        check = 1;
-                        list.style.transform = `translateX(-180px)`;
-                        list.style.transition = 'transform 0.4s ease';
-                        console.log('next click, check:', check);
+                    if (currentIndex < maxIndex) {
+                        currentIndex++;
+                        updateSlide();
                     }
                 });
             }
 
-            // 5. 메인 콘텐츠 업데이트 함수
+            // 메인 콘텐츠 업데이트
             function updateMainContent(item) {
                 callMain.innerHTML = `
                     <img class="mainBg" src="img/section3/bc-${item.bg}.png">
-                    <img class="s3Mainposter" src="img/section3/sub${item.id}.jpg">
+                    <img class="s3Mainposter" src="img/section3/sub0${item.id}.jpg">
                 `;
                 callMaindesc.innerHTML = `
                     <ul class="s3Main">
-                        <li class="s3Category"><h3 style="color:#fff;"># ${item.tag}</h3></li>
+                        <li><h3 class="s3Category"># ${item.tag}</h3></li>
                         <li><h2 class="s3Title">${item.title}</h2></li>
                         <hr style="border:1px solid #ffffffa9;">
                         <li><div class="s3Desc">${item.disc}</div></li>
                     </ul>
                 `;
+
+                const category = callMaindesc.querySelector('.s3Category');
+                category.addEventListener('click', () => renderList(item.tag));
             }
 
-            // 실행 순서
             renderList();
-            renderMainDefault(); // 리스트 렌더링 후
-}
+            renderMainDefault();
+        }
 
-section3();
+        section3();
+
+
 
     
 

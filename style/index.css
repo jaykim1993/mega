@@ -840,8 +840,7 @@
             padding: 0;
         }
         .s3Category{
-            color: #000000;
-            font-size: 14px;
+            cursor:pointer;
         }
         .s3Title{
             font-size: 32px;
@@ -881,6 +880,7 @@
             display: flex;
             height: 250px;
             justify-content: space-between;
+            transition: 0.3s;
         }
         .s3List li{
             cursor: pointer;
@@ -912,7 +912,7 @@
         .s3Subtitle{
             margin-top: 8px;
             text-align: center;
-            font-size: 15px;
+            font-size: 16px;
             font-weight: 500;
             display: block;
             width: 100%;
