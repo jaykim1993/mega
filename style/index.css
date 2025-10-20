@@ -19,7 +19,38 @@
         main {
             flex: 1;
         }
-        /* 공통 */
+         body, .container, main, section {
+            cursor: default; /* 기본 커서 */
+        }
+
+        /* 클릭 가능한 요소만 pointer */
+        button,
+        a,
+        .section1 .posterWarp .poster,
+        .section1 .posterWarp .overay,
+        .section1 .posterWarp .belowPoster .likenumBtn,
+        .section1 .posterWarp .belowPoster .bookBtn,
+        .s2Upper img,
+        .s2Left .sliderS2 img,
+        .s2Right img,
+        .s3Mainposter,
+        .s3Btns button,
+        .s3List li,
+        .modal .modal-conetent .slideCheck span,
+        .modal .modal-conetent .neverShowAgain .item-check,
+        .modal .modal-conetent .control {
+            cursor: pointer;
+        }
+
+        /* 모달 숨김 시 클릭 방지 */
+        .modalFloater,
+        .modal {
+            pointer-events: none;
+        }
+        .modalFloater.active,
+        .modal.active {
+            pointer-events: auto;
+        }
         ul{
             list-style: none;
             margin: 0;
