@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEET PLAY SHARE, 메가박스</title>
+    <link rel="icon" type="image/png" href="img/icon.png"/>
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style/index.css">
+    <script defer src="js/index.js"></script>
+</head>
+<!-------------------------------------------------------------------------------------->
+<!-- HTML 시작 -->
+<body>
+<!-------------------------------------------------------------------------------------->
+<!-- 모달 창 HTML -->
+
+            <div class="modalFloater">
+                <div class="modal">
+                    <!-- 사진(메인 모달창) -->
+                    <div class="xBtn"><i class="fa-solid fa-x"></i></div>
+                    <div class="slider">
+                        <img id="slide" src="img/modal/popupslide1.jpg" alt="팝업 슬라이드 이미지"/>
+                    </div>
+                    <div class="modal-conetent">
+                        <img class="control" id="toggleBtn" src="img/modal/pause_9055244.png"/>
+                        <div class="slideCheck">
+                            <span class="active"></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="neverShowAgain">
+                            <label><input type="checkbox" class="item-check" />하루동안 보지 않기</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-------------------------------------------------------------------------------------->
+    <div class="container">
+
+<!-- 헤더 HTML -->
+
+        <header>
+            <div class="menubar_width">
+                <!-- header01 --------->
+                <div class="header01">
+                    <!-- header01 왼쪽 (멤버쉽, 고객센터 ....) -->
+                    <ul class="header_left">
+                        <li>
+                            <a href="#" class="header_leftmenu">VIP LOUNGE</a>
+                            <a href="#" class="header_leftmenu">멤버쉽</a>
+                            <a href="#" class="header_leftmenu">고객센터</a>
+                        </li>
+                    </ul>
+                    <!-- header01 오른쪽 (로그아웃, 빠른예매) -->
+                    <ul class="header_right">
+                        <li>
+                            <a href="#" class="header_rightmenu">로그아웃</a>
+                            <a href="megabox.html" class="header_rightmenu">빠른예매</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- header02 --------->
+                <div class="header02">
+                    <!-- header02 왼쪽 (리스트?,검색) -->
+                    <div class="header02_left">
+                        <!-- list 아이콘 -->
+                        <a href="#" id="list_icon"><img src="img/megabox/icon-sitemap-white.png" class="icon_sitemap" alt="icon-sitemap"></a>
+                        <!-- 돋보기 아이콘 -->
+                        <a href="#" id="search"><img src="img/megabox/icon-search-white.png" class="icon-search" alt="icon-search"></a>
+                    </div>
+                    <!-- header02 미들 (메뉴바) -->
+                    <div class="middle_container">
+                        <div class="header02_middle">
+                            <ul class="menu">
+                                <li class="menubar">
+                                    <a href="#"><p id="menubar01">영화</p></a>
+                                    <ul class="menu_dropbox" id="menu_dropbox0">
+                                        <li>
+                                            <span >전체영화</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menubar">
+                                    <a href="#"><p id="menubar02">예매</p></a>
+                                    <ul class="menu_dropbox"id="menu_dropbox1">
+                                        <li>
+                                            <span >빠른예매</span>
+                                            <span >상영시간표</span>
+                                            <span >더 부티크 프라이빗 예매</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menubar">
+                                    <a href="#"><p id="menubar03">극장</p></a>
+                                    <ul class="menu_dropbox" id="menu_dropbox2">
+                                        <li>
+                                            <span >전체극장</span>
+                                            <span >특별관</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="index.html"><img id="mainLogo" src="img/logo-white_new2.png"></a>
+                                </li>
+                                <li class="menubar">
+                                    <a href="#"><p id="menubar04">이벤트</p></a>
+                                    <ul class="menu_dropbox" id="menu_dropbox3">
+                                        <li>
+                                            <span >진행중 이벤트</span>
+                                            <span >지난 이벤트</span>
+                                            <span >당첨자 발표</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menubar">
+                                    <a href="#"><p id="menubar05">스토어</p></a>
+                                    <ul class="menu_dropbox" id="menu_dropbox4">
+                                        <li>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menubar">
+                                    <a href="#"><p id="menubar06">혜택</p></a>
+                                    <ul class="menu_dropbox" id="menu_dropbox5">
+                                        <li>
+                                            <span >메가박스 멤버쉽</span>
+                                            <span >제휴/할인</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="background_drop"></div>
+                    </div>
+                    <!-- header02 오른쪽 (일정,마이페이지) -->
+                    <div class="header02_right">
+                        <!-- 일정 아이콘 -->
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <!-- 마이페이지 아이콘 -->
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <!-- (메뉴바 마우스오버하면 보이는 파트) -->
+            <div class="header02_searchClick">
+                <div class="searchTitle">
+                    <a href="#" class="bookRank">예매율순</a>
+                    <a href="#" class="viewRank">메가박스 관객순</a>
+                </div>
+                <div class="searchContent">
+                    <!-- 예매율순 화면 (Click) -->
+                     <div class="bookRankPart01">
+                        <div class="bookRankPart">
+                            <img src="img/megabox/movieposter02.jpg" id="search_movieposter" class="moviposter02" alt="movieposter02">
+                            <ul class="rank">
+                                <li>
+                                    <span class="rankNum">1</span>
+                                    <a href="#" class="moviename">극장판 주술회전:회옥.옥절</a>
+                                </li>
+                                <li>
+                                    <span class="rankNum">2</span>
+                                    <a href="#" class="moviename">극장판 체인소 맨:레저편</a>
+                                </li>
+                                <li>
+                                    <span class="rankNum">3</span>
+                                    <a href="#" class="moviename">어쩔수가없다</a>
+                                </li>
+                                <li>
+                                    <span class="rankNum">4</span>
+                                    <a href="#" class="moviename">투모로우바이투게터 브이알 콘서트 : 하트 어택</a>
+                                </li>
+                                <li>
+                                    <span class="rankNum">5</span>
+                                    <a href="#" class="moviename">보스</a>
+                                </li>
+                            </ul>
+                            <div class="searchPart">
+                                <input type="text" class="serching" placeholder="영화를 검색하세요">
+                                <img src="img/megabox/btn-header-search.png" class="searching_icon">
+                            </div>
+                        </div>
+                     </div>
+                     
+                    <!-- 관객순 화면 (Click) -->
+                     <div class="viewRankPart01">
+                        <div class="viewRankPart">
+                            <img src="img/megabox/movieposter03.jpg" id="search_movieposter01" class="moviposter02" alt="movieposter03">
+                            <ul class="rank">
+                                <li>
+                                    <span class="rankNum">1</span>
+                                    <a href="#" class="moviename">극장판 귀멸의 칼날: 무한성편</a>
+                                </li>
+                                <li>
+                                    <span class="rankNum">2</span>
+                                    <a href="#" class="moviename">F1 더 무비</a>
+                                </li>
+                                <li>
+                                    <span class="rankNum">3</span>
+                                    <a href="#" class="moviename">좀비딸</a>
+                                </li>
+                                <li>
+                                    <span class="rankNum">4</span>
+                                    <a href="#" class="moviename">진격의 거인 완결편 더 라스트 어택</a>
+                                </li>
+                                <li>
+                                    <span class="rankNum">5</span>
+                                    <a href="#" class="moviename">하얼빈</a>
+                                </li>
+                            </ul>
+                            <div class="searchPart">
+                                <input type="text" class="serching" placeholder="영화를 검색하세요">
+                                <img src="img/megabox/btn-header-search.png" class="searching_icon">
+                            </div>
+                        </div>
+                        
+                     </div>
+                </div>
+            </div>
+
+             <!-- header03 --------->
+            <div class="header03">
+                <!-- 클릭시 보이는 카테고리 -->
+                <div class="category">
+                    <h2>SITEMAP</h2>
+                    <ul class="sitemap">
+                        <li>
+                            <strong class="title">예매</strong>
+                            <p class="content">빠른예매</p>
+                            <p class="content">상영시간표</p>
+                            <p class="content">더 부티크 프라이빗 예매</p>
+                        </li>
+                        <li>
+                            <strong class="title">극장</strong>
+                            <p class="content">전체극장</p>
+                            <p class="content">특별관</p>
+                        </li>
+                        <li>
+                            <strong class="title">이벤트</strong>
+                            <p class="content">진행중 이벤트</p>
+                            <p class="content">지난 이벤트</p>
+                            <p class="content">당첨자 발표</p>
+                        </li>
+                        <li>
+                            <strong class="title">스토어</strong>
+                            <p class="content">새로운 상품</p>
+                            <p class="content">메가티켓</p>
+                            <p class="content">팝콘/음료/굿즈</p>
+                        </li>
+                        <li>
+                            <strong class="title">나의 메가박스</strong>
+                            <p class="content">나의 메가박스 홈</p>
+                            <p class="content">예매/구매내역</p>
+                            <p class="content">영화관람권</p>
+                            <p class="content">스토어교환권</p>
+                            <p class="content">할인/제휴쿠폰</p>
+                            <p class="content">멤버쉽포인트</p>
+                            <p class="content">나의 무비스토리</p>
+                            <p class="content">나의 이벤트 응모내역</p>
+                            <p class="content">나의 문의내역</p>
+                            <p class="content">자주쓰는 할인카드</p>
+                            <p class="content">회원정보</p>
+                        </li>
+                        <div class="secondpart">
+                            <li>
+                                <strong class="title">혜택</strong>
+                                <p class="content">멤버쉽 안내</p>
+                                <p class="content">VIP LOUNGE</p>
+                                <p class="content">제휴/할인</p>
+                            </li>
+                            <li>
+                                <strong class="title">고객센터</strong>
+                                <p class="content">고객센터 홈</p>
+                                <p class="content">자주묻는질문</p>
+                                <p class="content">공지사항</p>
+                                <p class="content">1:1문의</p>
+                                <p class="content">단체/대관문의</p>
+                                <p class="content">분실물문의</p>
+                            </li>
+                            <li>
+                                <strong class="title">회사소개</strong>
+                                <p class="content">메가박스소개</p>
+                                <p class="content">사회공헌</p>
+                                <p class="content">홍보자료</p>
+                                <p class="content">제휴/부대산업문의</p>
+                                <p class="content">온라인제보센터</p>
+                                <p class="content">IR자료</p>
+                                <p class="content">인재채용</p>
+                                <p class="content">윤리경영</p>
+                            </li>
+                            <li>
+                                <strong class="title">이용정책</strong>
+                                <p class="content">이용약관</p>
+                                <p class="content">위치기반서비스 이용약관</p>
+                                <p class="content">개인정보처리방침</p>
+                                <p class="content">스크린수배정에관한기준</p>
+                            </li>
+                        </div>
+                        
+                    </ul>
+                </div>
+            </div>   
+        </header>
+<!-------------------------------------------------------------------------------------->
+        <main>
+<!-------------------------------------------------------------------------------------->
+<!-- 섹션1 HTML-->
+
+            <section class="section1">
+                <div class="s1Header">
+                    <p class="header">박스오피스</p>
+                    <p class="moreMovie">더 많은 영화보기+</p>
+                </div>
+                <div class="posterWarp" id="posterWarp"></div>
+                <div class="s1Footer">
+                    <ul>
+                        <li class="searchbox">
+                            <input type="text" class="serching" placeholder="영화를 검색하세요">
+                            <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+                        </l>
+                        <li class="borderleft"><p><i class="fa-solid fa-calendar-days"></i>상영시간표</p></li>
+                        <li class="borderleft"><p><i class="fa-solid fa-film"></i>박스오피스</p></li>
+                        <li class="borderleft"><p><i class="fa-solid fa-ticket"></i>빠른예매</p></li>
+                    </ul>
+                    <div class="scroll"><i class="fa-solid fa-computer-mouse"></i> <i class="fa-solid fa-arrows-up-down" style="font-size: 16px;"></i></div>
+                </div>
+            </section>
+<!-------------------------------------------------------------------------------------->
+<!-- 섹션2 HTML -->
+
+            <section class="section2">
+                <div class="s2UpperWrap">
+                    <div class="s2Upper">
+                        <div class="s2Left">
+                            <div class="sliderS2">
+                                <h1>혜택</h1>
+                                <div class="flexS2">
+                                    <div id="sliderA"></div>
+                                    <div id="sliderB"></div>
+                                </div>
+                                <div class="sliderFooter">
+                                    <ul class="flexS2">
+                                        <li>
+                                            <span class="activeS2"></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </li>
+                                        <li id="currentNum"></li>
+                                        <li>/6</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="floatS2">
+                                <img class="floatLeft" id="floatLeft" src="https://img.megabox.co.kr/SharedImg/event/2025/06/19/dwgZzU9b6cYFXQBWk6ZmwGMB36NSb258.jpg" alt="HD현대오일뱅크 포인트로 영화 할인/무료관람 가능!" onerror="noImg(this, 'main');">
+                                <img class="floatRight" id="floatRight" src="https://img.megabox.co.kr/SharedImg/event/2025/10/13/OabnuLM1S5DduPIqnQXprTH5WF69Itz3.png" alt="[토스페이] 토스프라임 가입하고 영화 결제 혜택 받자!" onerror="noImg(this, 'main');">
+                            </div>
+                        </div>
+                        <div class="s2Right">
+                            <img src="https://mlink-cdn.netinsight.co.kr/2025/09/23/40051b911e67939131a0d719f5a709c0.jpg" width="415" height="530" border="0" alt="메가박스_하우스_2025_D_PC_일반배너_영화_마작_415x530">
+                        </div>
+                    </div>
+                </div>
+                <div class="s2LowerWrap">
+                    <div class="s2Lower" id="s2Lower"></div>
+                </div>    
+            </section>
+<!-------------------------------------------------------------------------------------->
+<!-- 섹션3 HTML -->
+
+            <section class="section3">
+                <div class="s3Header"><h1>큐레이션</h1></div>
+                <div class="s3Wrap">
+                    <div class="s3Left">
+                        <div id="callMain">
+                        </div>
+                        <div class="s3Btns">
+                            <button class="s3Info">상세정보</button>
+                            <button class="s3Reserve">예매</button>
+                        </div>
+                    </div>
+                    <div class="s3Right">
+                        <div id="callMaindesc"></div>
+                        <div class="s3ListWrap" id="s3ListWrap"></div>
+                    </div>
+                </div>
+            </section>
+<!-------------------------------------------------------------------------------------->
+<!-- 풋터 -->
+
+        <footer>
+            <div class="footer_container">
+                <!-- 풋터 상단 -->
+                <div class="footer_links">
+                    <a href="#">회사소개</a>
+                    <a href="#">인재채용</a>
+                    <a href="#">사회공헌</a>
+                    <a href="#">제휴/광고/부대사업문의</a>
+                    <a href="#" class="boldtext">이용약관</a>
+                    <a href="#" class="boldtext">위치기반서비스 이용약관</a>
+                    <a href="#">개인정보처리방침</a>
+                    <a href="#">윤리경영</a>
+                </div>
+                <!-- 풋터 하단 -->
+                <div class="footer_info">
+                    <ul>
+                        <li><div class="logo"><img src="https://img.megabox.co.kr/static/pc/images/common/ci/logo-opacity_new2.png"></div></li>
+                        <li>
+                            <p>
+                                서울특별시 강남구 테헤란로 87길 22 도심공항터미널 건물 408호 
+                                ARS 1544-0070 대표이메일 m.dreamcenter@partner.megabox.co.kr<br>
+                                대표자명 홍정인, 남용석 · 개인정보보호책임자 김수현 · 
+                                사업자등록번호 211-86-59478 · 통신판매업신고번호 2025-서울강남-00722<br>
+                                COPYRIGHT © MegaboxJoongAng, Inc. All rights reserved
+                            </p>
+                        </li>
+                        <li>
+                            <div class="footer_social">
+                                <a href="#"><img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-youtubeN.png"></a>
+                                <a href="#"><img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-instagramN.png"></a>
+                                <a href="#"><img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-facebookN.png"></a>
+                                <a href="#"><img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-twitterN.png"></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
