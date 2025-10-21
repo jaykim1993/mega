@@ -514,9 +514,6 @@
         .section1 .posterWarp .belowPoster .likenumBtn.clicked{
             background-color: tomato;
         }
-        .section1 .posterWarp .belowPoster .likenumBtn.clicked p{
-            transform: scale(1.2);
-        }
         .section1 .posterWarp .belowPoster .likenumBtn p{
             display: inline-block;
             width: initial;
